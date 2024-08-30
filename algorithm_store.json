@@ -1,0 +1,30 @@
+{
+  "name": "v6-gpu-accessibility",
+  "image": "v6-gpu-accessibility",
+  "vantage6_version": "4.6",
+  "code_url": "https://mygitrepo.org",
+  "documentation_url": "",
+  "partitioning": "horizontal",
+  "functions": [
+    {
+      "name": "central",
+      "description": "Algorithm to assesses in-algorithm GPU accessibility in the most basic form.",
+      "type": "central",
+      "databases": [],
+      "arguments": [
+        {
+          "name": "organisation_ids",
+          "type": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "partial",
+      "description": "",
+      "type": "federated",
+      "databases": [],
+      "arguments": []
+    }
+  ]
+}
