@@ -14,14 +14,14 @@
       "arguments": [
         {
           "name": "organisation_ids",
-          "type": "",
-          "description": ""
+          "type": "list",
+          "description": "List of organisation IDs to include in the subtask. If not provided, all organisations in the collaboration are included."
         }
       ]
     },
     {
       "name": "partial",
-      "description": "",
+      "description": "Retrieves GPU accessibility details for TensorFlow and PyTorch.",
       "type": "federated",
       "databases": [],
       "arguments": []

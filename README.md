@@ -2,6 +2,7 @@
 # v6-gpu-accessibility
 
 Algorithm to assesses in-algorithm GPU accessibility in the most basic form.
+More information can be found in the included docs and wiki
 
 This algorithm is designed to be run with the [vantage6](https://vantage6.ai)
 infrastructure for distributed analysis and learning.
@@ -9,33 +10,6 @@ infrastructure for distributed analysis and learning.
 The base code for this algorithm has been created via the
 [v6-algorithm-template](https://github.com/vantage6/v6-algorithm-template)
 template generator.
-
-### Checklist
-
-Note that the template generator does not create a completely ready-to-use
-algorithm yet. There are still a number of things you have to do yourself.
-Please ensure to execute the following steps. The steps are also indicated with
-TODO statements in the generated code - so you can also simply search the
-code for TODO instead of following the checklist below.
-
-- [ ] Include a URL to your code repository in setup.py.
-- [ ] Implement your algorithm functions.
-  - [ ] You are free to add more arguments to the functions. Be sure to add them
-    *after* the `client` and dataframe arguments.
-  - [ ] When adding new arguments, if you run the `test/test.py` script, be sure
-    to include values for these arguments in the `client.task.create()` calls
-    that are available there.
-- [ ] If you are using Python packages that are not in the standard library, add
-  them to the `requirements.txt` and `setup.py` file.
-- [ ] Fill in the documentation template. This will help others to understand your
-  algorithm, be able to use it safely, and to contribute to it.
-- [ ] If you want to submit your algorithm to a vantage6 algorithm store, be sure
-  to fill in everything in ``algorithm_store.json`` (and be sure to update
-  it if you change function names, arguments, etc.).
-- [ ] Create a ``DOCKER_USER`` and ``DOCKER_PASSWORD`` secret in the GitHub repository
-  settings. This will be used to push the Docker image to the registry in the github
-  pipeline.
-- [ ] Finally, remove this checklist section to keep the README clean.
 
 ### Dockerizing your algorithm
 

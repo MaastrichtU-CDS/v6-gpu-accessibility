@@ -4,17 +4,17 @@ v6-gpu-accessibility
 Description
 -----------
 
-.. Give short description of the algorithm on this main page of the docs
+Vantage6 algorithm that assesses in-algorithm GPU accessibility in the most basic form
 
 Authors
 -------
 
-.. List authors.
+J. Hogenboom
 
 Source code
 -----------
 
-.. Describe where to find source code and docker files
+https://github.com/MaastrichtU-CDS/v6-gpu-accessibility/
 
 
 Contents
