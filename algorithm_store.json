@@ -2,8 +2,8 @@
   "name": "v6-gpu-accessibility",
   "image": "v6-gpu-accessibility",
   "vantage6_version": "4.6",
-  "code_url": "https://mygitrepo.org",
-  "documentation_url": "",
+  "code_url": "https://github.com/MaastrichtU-CDS/v6-gpu-accessibility",
+  "documentation_url": "https://github.com/MaastrichtU-CDS/v6-gpu-accessibility/wiki",
   "partitioning": "horizontal",
   "functions": [
     {

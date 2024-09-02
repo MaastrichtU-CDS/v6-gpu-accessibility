@@ -1,5 +1,5 @@
 # Basic python3 image as base
-FROM harbor2.vantage6.ai/infrastructure/algorithm-base
+FROM harbor2.vantage6.ai/infrastructure/algorithm-base:4.6
 
 # This is a placeholder that should be overloaded by invoking Docker build with '--build-arg PKG_NAME=...'
 ARG PKG_NAME="v6-gpu-accessibility"
