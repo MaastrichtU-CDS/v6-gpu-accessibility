@@ -20,7 +20,6 @@ setup(
     install_requires=[
         'vantage6-algorithm-tools',
         'pandas',
-        'tensorflow',
-        'torch'
+        'tensorflow'
     ]
 )

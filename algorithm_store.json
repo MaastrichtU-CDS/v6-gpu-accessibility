@@ -21,7 +21,7 @@
     },
     {
       "name": "partial",
-      "description": "Retrieves GPU accessibility details for TensorFlow and PyTorch.",
+      "description": "Retrieves GPU accessibility details for TensorFlow.",
       "type": "federated",
       "databases": [],
       "arguments": []
