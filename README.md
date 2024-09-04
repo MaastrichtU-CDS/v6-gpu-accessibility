@@ -1,7 +1,7 @@
 
 # v6-gpu-accessibility
 
-Algorithm to assesses in-algorithm GPU accessibility in the most basic form.
+Algorithm to assesses in-algorithm GPU accessibility in the most basic form.  
 More information can be found in the included docs and wiki
 
 This algorithm is designed to be run with the [vantage6](https://vantage6.ai)

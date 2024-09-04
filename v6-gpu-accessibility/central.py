@@ -37,13 +37,13 @@ def central(client: AlgorithmClient, organisation_ids: list) -> Any:
         ids = organisation_ids
 
     # Create a subtask for all organisations in the collaboration.
-    info("Creating subtask for all organisations in the collaboration")
+    info("Creating subtask for all (specified) organisations in the collaboration")
     task = client.task.create(
         input_={"method": "partial",
                 "kwargs": {}},
         organizations=ids,
         name="GPU accessibility assessment",
-        description="This is task assesses whether GPUs are available inside of the algorithm's Docker container."
+        description="This task assesses whether GPUs are available inside of the algorithm's Docker container."
     )
 
     # Wait for the nodes to return results of the subtask.

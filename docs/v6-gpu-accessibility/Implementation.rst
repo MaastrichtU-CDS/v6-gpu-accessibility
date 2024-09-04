@@ -4,8 +4,8 @@ Implementation
 Overview
 --------
 
-Central (``central``)
------------------
+Central
+-------
 The central part is responsible for the orchestration and aggregation of the algorithm.
 
 ``central``

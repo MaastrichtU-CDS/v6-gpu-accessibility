@@ -1,5 +1,5 @@
 v6-gpu-accessibility
-==================
+====================
 
 Description
 -----------
@@ -31,6 +31,4 @@ Contents
 
     v6-gpu-accessibility/implementation
     v6-gpu-accessibility/usage
-    v6-gpu-accessibility/privacy
     v6-gpu-accessibility/validation
-    v6-gpu-accessibility/references

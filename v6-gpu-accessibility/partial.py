@@ -37,7 +37,7 @@ def partial(client: AlgorithmClient) -> Any:
     }
 
 
-def get_tensorflow_gpu_details():
+def get_tensorflow_gpu_details() -> dict or str:
     """
     Retrieves details about available TensorFlow GPUs.
 
@@ -56,7 +56,7 @@ def get_tensorflow_gpu_details():
     }
 
 
-def get_pytorch_gpu_details():
+def get_pytorch_gpu_details() -> dict or str:
     """
     Retrieves details about available PyTorch GPUs.
 
