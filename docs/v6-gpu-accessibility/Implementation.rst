@@ -20,9 +20,10 @@ node.
 
 ``partial``
 ~~~~~~~~~~~
-The partial function retrieves GPU accessibility details for TensorFlow through the helper function.
+The partial function retrieves GPU accessibility details for PyTorch through the helper function.
 
-``get_tensorflow_gpu_details``
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This function checks if TensorFlow is accessible on the GPU.
+
+``get_pytorch_gpu_details``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This function checks if PyTorch is accessible on the GPU.
 If a GPU is available it returns the GPU device name(s), memory, cores, and compute capability.
